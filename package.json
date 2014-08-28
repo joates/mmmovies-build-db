@@ -1,0 +1,38 @@
+{
+  "name": "mmmovies-build-db",
+  "version": "0.0.0-alpha1",
+  "description": "building a database for the Mmmovies project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "clean": "rm -rf ../data/db/* && rm -rf ../data/cache/.*.dat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joates/mmmovies-build-db.git"
+  },
+  "keywords": [
+    "movie",
+    "movies",
+    "database",
+    "imdb"
+  ],
+  "author": "@joat_es (http://joat.es)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joates/mmmovies-build-db/issues"
+  },
+  "dependencies": {
+    "flowing-moments": "^2.0.1",
+    "minimist": "^1.1.0",
+    "request": "^2.40.0",
+    "through2": "^0.6.1"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.4.6",
+    "level": "^0.18.0",
+    "level-party": "0.0.4",
+    "level-sublevel": "^6.3.4",
+    "tape": "^2.14.0"
+  }
+}
