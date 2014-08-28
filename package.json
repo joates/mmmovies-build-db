@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js",
-    "clean": "rm -rf ../data/db/* && rm -rf ../data/cache/.*.dat"
+    "clean": "read -p 'Are you sure? [or press ctrl+c] ' prompt; \nrm -rf ../data/db/* && rm -rf ../data/cache/.*.dat"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
   "devDependencies": {
     "concat-stream": "^1.4.6",
     "level": "^0.18.0",
-    "level-party": "0.0.4",
     "level-sublevel": "^6.3.4",
     "tape": "^2.14.0"
   }
