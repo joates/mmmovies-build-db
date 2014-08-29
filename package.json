@@ -23,7 +23,7 @@
     "url": "https://github.com/joates/mmmovies-build-db/issues"
   },
   "dependencies": {
-    "flowing-moments": "^2.0.1",
+    "flowing-moments": "^2.1.x",
     "minimist": "^1.1.0",
     "request": "^2.40.0",
     "through2": "^0.6.1"
